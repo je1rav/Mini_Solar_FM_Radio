@@ -73,9 +73,6 @@ OLEDもつけた状態
 ![with case](images/FM-Radio_6.png)  
 ケースに入れた状態(電源LED(赤)は，まだ取り外していない)  
 
-![mobile battery](images/FM-Radio_7.png)  
-ダイソーのモバイルバッテリーで運用中(Anti APOは，ON)  
-
 #### 製作時の注意点
 	1．ESP32-C3 Super Miniボードは，基板から浮かないように，はんだ付けします．
 	2．すべての部品は背が低くなるように取り付けて下さい(基板上6mm程度以下)．電解コンデンサーは5mm高のものを使用して下さい．
@@ -114,6 +111,8 @@ OLEDもつけた状態
 
 #### Liイオン電池や太陽電池を含まず，モバイルバッテリーに繋いで使う時のケースの3Dプリント用ファイル(.stl)は"wo_battery-case.zip"です．  
 	ファイルは102％程度に拡大して印刷して下さい．
+![mobile battery](images/FM-Radio_7.png)  
+ダイソーのモバイルバッテリーでの運用例(Anti APOは，ON)  
 
 #### 消費電流（目安，ESP32-C3 Super Miniボード上の電源LED(赤)を取外し済み，残している場合は+0.34mA）
 	FM放送受信時(Vol最小，OLED周波数表示，定常時(CPUはlight sleep))： 22mA
