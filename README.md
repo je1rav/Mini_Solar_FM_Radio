@@ -107,7 +107,7 @@ R3は"deep sleep"からの復帰用(本当は勝手に復帰しないように�
   
 #### Liイオン電池や太陽電池を含まず，モバイルバッテリーに繋いで使う時のケースの3Dプリント用ファイル(.stl)は"wo_battery-case.zip"です．  
 	ファイルは102％程度に拡大して印刷して下さい．
-<img src="images/FM-Radio_7.png" width="400">  ダイソーのモバイルバッテリーでの運用例(Anti APOは，ON)  
+<img src="images/FM-Radio_7.png" width="400">  バッテリーを内蔵せず，ダイソーのモバイルバッテリーでの運用例(Anti APOは，ON)  
   
 #### 消費電流（目安，ESP32-C3 Super Miniボード上の電源LED(赤)を取外し済み，残している場合は+0.34mA）
 	FM放送受信時(Vol最小，OLED周波数表示，定常時(CPUはlight sleep))： 22mA
