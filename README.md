@@ -56,17 +56,22 @@ ESP32-C3 Super Miniボード上の電源LED(赤)を取り外せば0.1mA以下に
 R3は"deep sleep"からの復帰用(本当は勝手に復帰しないようにするため)のプルアップ抵抗です．　　
   
 ![board](images/FM-Radio_1.png)  
-プリント基板部品（厚み1mm） 
+プリント基板部品（厚み1mm）  
+  
 ![with parts](images/FM-Radio_2.png)  
-部品をつけた状態
+部品をつけた状態  
+  
 ![with OLED](images/FM-Radio_3.png)  
-OLEDもつけた状態
+OLEDもつけた状態  
+  
 ![with OLED sideview](images/FM-Radio_4.png)  
-横から見た状態(OLEDは少し浮かせてはんだ付け)
+横から見た状態(OLEDは少し浮かせてはんだ付け)  
+  
 ![batteries](images/FM-Radio_5.png)  
-太陽電池とリチウムイオン電池との接続
+太陽電池とリチウムイオン電池との接続  
+  
 ![with case](images/FM-Radio_6.png)  
-ケースに入れた状態(電源LEDは，まだ取り外していない状態)
+ケースに入れた状態(電源LED(赤)は，まだ取り外していない)  
 
 #### 製作時の注意点
 	1．ESP32-C3 Super Miniボードは，基板から浮かないように，はんだ付けします．
