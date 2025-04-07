@@ -55,23 +55,18 @@ RDA5807のアンテナ入力にはコンデンサーとインダクターの並�
 ESP32-C3 Super Miniボード上の電源LED(赤)を取り外せば0.1mA以下になりますので，内蔵バッテリーを使用する場合にはこのLEDの取り外しをお勧めします．  
 R3は"deep sleep"からの復帰用(本当は勝手に復帰しないようにするため)のプルアップ抵抗です．　　
   
-![board](images/FM-Radio_1.png)  
-プリント基板部品（厚み1mm）  
-  
-![with parts](images/FM-Radio_2.png)  
-部品をつけた状態  
-  
-![with OLED](images/FM-Radio_3.png)  
-OLEDもつけた状態  
-  
-![with OLED sideview](images/FM-Radio_4.png)  
-横から見た状態(OLEDは少し浮かせてはんだ付け)  
-  
-![batteries](images/FM-Radio_5.png)  
-太陽電池とリチウムイオン電池との接続  
-  
-![with case](images/FM-Radio_6.png)  
-ケースに入れた状態(電源LED(赤)は，まだ取り外していない)  
+<img src="images/FM-Radio_1.png" width="550">  プリント基板部品（厚み1mm）  
+
+<img src="images/FM-Radio_2.png" width="600">  部品をつけた状態  
+
+<img src="images/FM-Radio_3.png" width="600">  OLEDもつけた状態   
+
+<img src="images/FM-Radio_4.png" width="500">  横から見た状態(OLEDは少し浮かせてはんだ付け)    
+
+<img src="images/FM-Radio_5.png" width="600">  太陽電池とリチウムイオン電池との接続  
+
+<img src="images/FM-Radio_6.png" width="600">  ケースに入れた状態(電源LED(赤)は，まだ取り外していない)  
+
 
 #### 製作時の注意点
 	1．ESP32-C3 Super Miniボードは，基板から浮かないように，はんだ付けします．
@@ -108,20 +103,18 @@ OLEDもつけた状態
 #### ケースの3Dプリント用ファイル(.stl)は"RDA5807m_ESP32C3_0.42OLED-case.zip"です．  
 	Liイオン電池のスペーサー以外のケースのファイルは102％程度に拡大して印刷して下さい．
 	Liイオン電池のスペーサーファイルは100％で印刷して下さい．
-![solar battery](images/FM-Radio_8.png)  
-太陽電池＋内蔵リチウムイオン電池での運用例  
-
+<img src="images/FM-Radio_8.png" width="200">  太陽電池＋内蔵リチウムイオン電池での運用例  
+  
 #### Liイオン電池や太陽電池を含まず，モバイルバッテリーに繋いで使う時のケースの3Dプリント用ファイル(.stl)は"wo_battery-case.zip"です．  
 	ファイルは102％程度に拡大して印刷して下さい．
-![mobile battery](images/FM-Radio_7.png)  
-ダイソーのモバイルバッテリーでの運用例(Anti APOは，ON)  
-
+<img src="images/FM-Radio_7.png" width="400">  ダイソーのモバイルバッテリーでの運用例(Anti APOは，ON)  
+  
 #### 消費電流（目安，ESP32-C3 Super Miniボード上の電源LED(赤)を取外し済み，残している場合は+0.34mA）
 	FM放送受信時(Vol最小，OLED周波数表示，定常時(CPUはlight sleep))： 22mA
 	電源OFF状態(deep sleep)： 0.07mA
 
 #### 注意事項
-	PC等にUSB接続すると，Liイオン電池が充電されます．保護回路が入っているLiイオン電池を使用しているとは思いますが，過充電に注意して下さい．
+	Liイオン電池内蔵型はPC等にUSB接続すると，Liイオン電池が充電されます．保護回路が入っているLiイオン電池を使用しているとは思いますが，過充電に注意して下さい．
 
 #### 必要部品(2025年3月27日現在)  
 	DRA5807mモジュール：たとえば秋月電子 360円　https://akizukidenshi.com/catalog/g/g117315/，アマゾンやAliExpressでも購入可
