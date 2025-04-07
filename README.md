@@ -103,7 +103,7 @@ R3は"deep sleep"からの復帰用(本当は勝手に復帰しないように�
 #### ケースの3Dプリント用ファイル(.stl)は"RDA5807m_ESP32C3_0.42OLED-case.zip"です．  
 	Liイオン電池のスペーサー以外のケースのファイルは102％程度に拡大して印刷して下さい．
 	Liイオン電池のスペーサーファイルは100％で印刷して下さい．
-<img src="images/FM-Radio_8.png" width="200"> <img src="images/FM-Radio_9.png" width="200"> 太陽電池＋内蔵リチウムイオン電池での使用例  
+<img src="images/FM-Radio_8.png" width="200"> <img src="images/FM-Radio_9.png" width="215"> 太陽電池＋内蔵リチウムイオン電池での使用例  
   
 #### Liイオン電池や太陽電池を含まず，モバイルバッテリーに繋いで使う時のケースの3Dプリント用ファイル(.stl)は"wo_battery-case.zip"です．  
 	ファイルは102％程度に拡大して印刷して下さい．
