@@ -55,7 +55,7 @@ RDA5807のアンテナ入力にはコンデンサーとインダクターの並�
 ESP32-C3 Super Miniボード上の電源LED(赤)を取り外せば0.1mA以下になりますので，内蔵バッテリーを使用する場合にはこのLEDの取り外しをお勧めします．  
 R3は"deep sleep"からの復帰用(本当は勝手に復帰しないようにするため)のプルアップ抵抗です．　　
   
-<img src="images/FM-Radio_1.png" width="550">  プリント基板部品（厚み1mm）  
+<img src="images/FM-Radio_1.png" width="550">  プリント基板（厚み1mm）  
 
 <img src="images/FM-Radio_2.png" width="600">  部品をつけた状態  
 
